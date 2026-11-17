@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Background Color Remover</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Simple Background Color Remover</h2>
+
+  <div class="controls">
+    <input type="file" id="upload" accept="image/*">
+    
+    <label>
+      Target Color:
+      <input type="color" id="colorPicker" value="#ffffff">
+    </label>
+
+    <label>
+      Tolerance:
+      <input type="range" id="tolerance" min="0" max="150" value="30">
+    </label>
+
+    <button id="removeBtn">Remove Color</button>
+    <button id="downloadBtn">Download PNG</button>
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
