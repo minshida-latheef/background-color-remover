@@ -4,11 +4,7 @@
 
 A clean, browser-based image tool built with HTML, CSS, and JavaScript that erases solid background colors and lets you download transparent PNGs instantly.
 
-
-
-🌐 \*\*Live Site:\*\* \[https://minshida-latheef.github.io/background-color-remover/](https://minshida-latheef.github.io/background-color-remover/)
-
-
+[click to view](https://minshida-latheef.github.io/background-color-remover/)
 
 \## What It Does
 
